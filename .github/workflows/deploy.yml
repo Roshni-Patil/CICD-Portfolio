@@ -36,3 +36,5 @@ jobs:
             docker rm portfolio || true
             docker run -d --name portfolio -p 80:80 \
               ${{ secrets.DOCKER_USERNAME }}/portfolio:v2
+
+#  changed the security group in AWS 
