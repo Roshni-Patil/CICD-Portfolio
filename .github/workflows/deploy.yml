@@ -38,3 +38,7 @@ jobs:
               ${{ secrets.DOCKER_USERNAME }}/portfolio:v2
 
 #  changed the security group in AWS 
+
+
+# change the sudo usermod -aG docker ec2-user 
+# added the docker group to the ec2-user to allow running docker commands without sudo.
