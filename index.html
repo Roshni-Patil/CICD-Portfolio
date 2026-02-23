@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roshni Patil | DevOps Engineer</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet"/>
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+<!-- ==================== NAV ==================== -->
+<nav>
+  <div class="nav-logo">Roshni</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certificates">Certs</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">☀️</button>
+    </li>
+  </ul>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<section id="hero">
+  <div class="hero-badge">
+    <div class="badge-dot"></div>
+    Available for DevOps / SRE / OpenShift Roles
+  </div>
+  <h1 class="hero-name">
+    <span id="heroTyping" class="typed-name"></span><span class="cursor-blink">|</span>
+  </h1>
+  <p class="hero-role">OpenShift Engineer &nbsp;·&nbsp; DevOps Enthusiast &nbsp;&nbsp; </p>
+  <p class="hero-desc">
+    Passionate about automation, reliability, and building scalable systems.
+    I break things, fix them, and document what I learn — in Kubernetes, OpenShift, and beyond.
+  </p>
+  <div class="hero-btns">
+    <a href="#projects" class="btn btn-glow"><i class="fas fa-rocket"></i> View Projects</a>
+    <a href="#contact"  class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+    <a href="resume/RoshniPatil.pdf" target="_blank" download class="btn btn-outline"><i class="fas fa-download"></i> Resume</a>
+    
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+    Scroll to explore
+  </div>
+</section>
+
+<!-- ==================== SKILLS STRIP ==================== -->
+<div id="skills-strip">
+  <div class="skills-track-wrap">
+    <div class="skills-track" id="skillsTrack"></div>
+  </div>
+</div>
+
+<!-- ==================== ABOUT ==================== -->
+<section id="about">
+  <p class="section-label reveal">Who I Am</p>
+  <h2 class="section-title reveal">A little about <span>me</span></h2>
+
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal">
+      <div class="about-photo-frame" style="width:280px;height:280px;">
+        <!-- animated rings -->
+        <div class="glow-ring-a"></div>
+        <div class="glow-ring-a two"></div>
+        <div class="orbit-a"><div class="orb-dot-a"></div><div class="orb-dot-a r"></div></div>
+        <div class="orbit-a two"><div class="orb-dot-a"></div><div class="orb-dot-a r"></div></div>
+        <div class="ring-conic"></div>
+        <div class="ring-mask"></div>
+        <div class="about-photo-bg" style="background:transparent;padding:0;overflow:hidden;">
+          <img src="profile.png" alt="Roshni Patil" style="width:100%;height:100%;object-fit:cover;border-radius:16px;"/>
+        </div>
+        <div class="about-badge bot">
+          <div class="live-dot-a"></div> Open to Opportunities
+        </div>
+        <div class="about-badge top">⭐ 5× Red Hat Certified</div>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p class="reveal">
+        Hey! I'm <strong>Roshni Patil</strong>, an <strong>OpenShift Engineer</strong> on a mission to transition
+        into DevOps / SRE. I thrive at the intersection of infrastructure and engineering — where reliability meets code.
+      </p>
+      <p class="reveal">
+        I work with <strong>Kubernetes, OpenShift, Ansible, and cloud-native tools</strong> every day. My passion
+        lies in automation and building systems that don't wake you up at 3 AM. I've spent years earning Red Hat
+        certifications and translating that knowledge into real production experience.
+      </p>
+      <p class="reveal">
+        In my free time I work on hands-on projects, write technical blogs, and explore how systems behave under
+        pressure. This portfolio is a living record of everything I've learned, broken, and rebuilt.
+      </p>
+
+      <div class="about-stats reveal">
+        <div class="stat-box"><div class="num">5+</div><div class="lbl">Red Hat Certs</div></div>
+        <div class="stat-box"><div class="num">3+</div><div class="lbl">Years Exp</div></div>
+      </div>
+
+      <div class="hero-btns reveal" style="justify-content:flex-start">
+        <a href="https://github.com/Roshni-Patil" target="_blank" class="btn btn-glow">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="resume/RoshniPatil.pdf" download class="btn btn-outline">
+          <i class="fas fa-file-alt"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EXPERIENCE ==================== -->
+<section id="experience" style="padding: 60px 60px 20px;">
+  <p class="section-label reveal">Career</p>
+  <h2 class="section-title reveal">My <span>Experience</span></h2>
+
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Sept 2025 — Present</div>
+      <div class="tl-role">OpenShift Engineer</div>
+      <div class="tl-company">Prodevans Technologies Pvt. Ltd.</div>
+      <div class="tl-desc">
+        - Managed and supported enterprise-grade OpenShift clusters in production environments, handling Day 2 operations including scaling, patching, upgrades, and configuration changes.
+      </div>
+      <div class="tl-desc">
+        - Administered and troubleshot containerized workloads across multiple namespaces ensuring high 
+        availability and SLA adherence.
+      </div>
+      <div class="tl-desc">
+        - Performed cluster health checks, node management, certificate renewals, and etcd backup/restore operations.
+      </div>
+      <div class="tl-desc">
+        - Managed and maintained Red Hat Quay for private container image registry, including repository access control,image lifecycle policies, and vulnerability scanning.
+      </div>
+      <div class="tl-desc">
+        - Implemented and automated operational tasks using Bash scripting to reduce manual effort and improve deployment efficiency.
+      </div>
+      <div class="tl-desc">
+        - Managed role-based access control (RBAC), security policies, and network configurations within OpenShift.
+      </div>
+      <div class="tl-desc">
+        - Participated in on-call rotations, performing root cause analysis (RCA) and reducing incident resolution time.
+      </div>
+      <div class="tl-desc">
+        - Contributed to disaster recovery procedures including cluster backup strategies and restore validation.
+      </div>
+      <div class="tl-tags">
+        <span class="tl-tag">OpenShift</span>
+        <span class="tl-tag">Quay</span>
+        <span class="tl-tag">Bash</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Nov 2022 — Aug 2025</div>
+      <div class="tl-role">Openshift Support Engineer</div>
+      <div class="tl-company">Red Hat, Inc</div>
+
+      <div class="tl-desc"> - Provided technical support for Red Hat OpenShift clusters across all environments [ AWS,Azure,GCP,Baremetal/Vmware], resolving installation and upgrade-related issues across customer clusters.
+      </div>
+      <div class="tl-desc"> - Investigated complex deployment failures, version incompatibilities, and cluster bootstrap issues during OpenShift installation.
+      </div>
+      <div class="tl-desc"> - Analyzed upgrade path failures, operator compatibility issues, and cluster health degradation during minor/major version upgrades.
+      </div>
+      <div class="tl-desc"> - Actively utilized Red Hat Knowledgebase (KCS methodology) to document resolutions and improve reusable troubleshooting workflows.
+      </div>
+      <div class="tl-desc"> - Contributed to internal Knowledge-Centered Support (KCS) articles to enhance resolution efficiency and reduce recurring incidents.
+      </div>
+      <div class="tl-desc"> - Collaborated with engineering teams by documenting and escalating product defects with detailed reproduction steps and logs.
+      </div>
+      <div class="tl-desc"> - Participated in internal hackathons focused on automation and operational efficiency improvements.
+      </div>
+      <div class="tl-desc"> - Performed log analysis using must-gather, oc adm inspect, and cluster diagnostic tools.
+      </div>
+      <div class="tl-desc"> - Assisted global customers in troubleshooting production incidents while maintaining SLA compliance.
+      </div>      
+      <div class="tl-tags">
+        <span class="tl-tag">RHEL</span>
+        <span class="tl-tag">Bash</span>
+        <span class="tl-tag">Monitoring</span>
+        <span class="tl-tag">Openshift</span>
+        <span class="tl-tag">CoreOS</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Jun 2022 —  Aug 2022</div>
+      <div class="tl-role">DevOps Intern</div>
+      <div class="tl-company">Eigenlytics Data and Solutions &amp; Infrastructure</div>
+      <div class="tl-desc"> - Worked on Ansible playbooks for basic configuration management and deployment automation.</div>
+      <div class="tl-desc"> - Worked with Docker to build and run containerized applications.</div>
+      <div class="tl-desc"> - Gained hands-on experience deploying applications on Kubernetes, including pods, services, and deployments.</div>
+      <div class="tl-desc"> - Developed basic Python scripts to automate routine operational tasks.</div>
+      <div class="tl-tags">
+        <span class="tl-tag">Docker</span>
+        <span class="tl-tag">Ansible</span>
+        <span class="tl-tag">Git</span>
+        <span class="tl-tag">Cloud</span>
+        <span class="tl-tag">Kubernetes</span>
+        <span class="tl-tag">Bash</span>
+        <span class="tl-tag">Python</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== PROJECTS ==================== -->
+<!-- <section id="projects"> -->
+  <!-- <p class="section-label reveal">What I've Built</p> -->
+  <!-- <h2 class="section-title reveal">Featured <span>Projects</span></h2> -->
+  
+  <!-- Cards are injected by script.js -->
+
+
+  <!-- <div class="projects-grid" id="projectsGrid"></div> -->
+<!-- </section> -->
+
+<!-- ==================== CERTIFICATES ==================== -->
+<section id="certificates">
+  <p class="section-label reveal">Credentials</p>
+  <h2 class="section-title reveal">My <span>Certificates</span></h2>
+  <div class="cert-filter reveal" id="certFilter">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="completed">Completed</button>
+    <button class="filter-btn" data-filter="in-progress">In Progress</button>
+  </div>
+  <!-- Cards are injected by script.js -->
+  <div class="cert-grid" id="certGrid"></div>
+</section>
+
+<!-- ==================== BLOGS ==================== -->
+<!-- <section id="blogs"> -->
+  <!-- <p class="section-label reveal">Writing</p> -->
+  <!-- <h2 class="section-title reveal">Technical <span>Blogs</span></h2> -->
+ 
+  <!-- Cards are injected by script.js -->
+  <!-- <div class="blogs-grid" id="blogsGrid"></div> -->
+<!-- </section> -->
+
+<!-- ==================== CONTACT ==================== -->
+<section id="contact">
+  <p class="section-label reveal">Say Hello</p>
+  <h2 class="section-title reveal" style="text-align:center">Let's <span>Connect</span></h2>
+  <p class="contact-sub reveal">
+    Open to DevOps / SRE / OpenShift roles, collaborations, and interesting conversations about
+    Kubernetes, OpenShift, and cloud infrastructure.
+  </p>
+
+<div class="contact-layout reveal">
+
+    <!-- ── Contact Form ── -->
+    <div class="contact-form-wrap">
+      <form id="contactForm" action="https://formspree.io/f/xqedynoo" method="POST">
+        <div class="form-group">
+          <label for="fname">Your Name</label>
+          <input type="text" id="fname" name="name" placeholder="Jane Doe" required/>
+        </div>
+        <div class="form-group">
+          <label for="femail">Your Email</label>
+          <input type="email" id="femail" name="email" placeholder="jane@example.com" required/>
+        </div>
+        <div class="form-group">
+          <label for="fmsg">Message</label>
+          <textarea id="fmsg" name="message" rows="5" placeholder="Hi Roshni, I'd love to connect about..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-glow form-submit" id="submitBtn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <!-- Success / Error messages -->
+        <div class="form-success" id="formSuccess">
+          <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+        </div>
+        <div class="form-error" id="formError">
+          <i class="fas fa-exclamation-circle"></i> Something went wrong. Please try again.
+        </div>
+      </form>
+    </div>
+
+    <!-- ── Social Cards ── -->
+    <div class="contact-socials">
+      <a href="https://linkedin.com/in/patilroshni" target="_blank" class="contact-card">
+        <i class="fab fa-linkedin"></i>
+        <div class="c-label">LinkedIn</div>
+        <div class="c-value">roshnipatil</div>
+      </a>
+      <a href="https://github.com/Roshni-Patil" target="_blank" class="contact-card">
+        <i class="fab fa-github"></i>
+        <div class="c-label">GitHub</div>
+        <div class="c-value">Roshni-Patil</div>
+      </a>
+
+
+  </div>
+</section>
+
+
+<!-- Formspree contact form handler -->
+<script>
+  const form = document.getElementById('contactForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const successMsg = document.getElementById('formSuccess');
+  const errorMsg = document.getElementById('formError');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    successMsg.style.display = 'none';
+    errorMsg.style.display = 'none';
+
+    try {
+      const res = await fetch('https://formspree.io/f/xqedynoo', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      if (res.ok) {
+        successMsg.style.display = 'flex';
+        form.reset();
+        submitBtn.innerHTML = '<i class="fas fa-check"></i> Sent!';
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+        }, 3000);
+      } else {
+        throw new Error('Failed');
+      }
+    } catch {
+      errorMsg.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+    }
+  });
+</script>
+
+
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <p>Designed &amp; built with <span>❤️</span> by Roshni Patil &nbsp;·&nbsp; <span>2026</span></p>
+</footer>
+
+<!-- Script — loaded last so DOM is ready -->
+<script src="script.js"></script>
+
+</body>
+</html>
